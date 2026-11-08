@@ -1,0 +1,94 @@
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #696969;
+  background-color: #f0f0f0;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  margin : 20px;
+}
+
+h1, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #2f4f4f;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #696969;
+}
+
+.nav-items li {
+  padding: 15px;
+}
+
+.nav-items li:hover {
+  background-color: #f0f0f0;
+}
+
+.nav-items li a {
+  font-size: 20px;
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.nav-items li:hover a {
+  color: #696969;
+}
+
+.experience-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-items li {
+  padding: 20px;
+  border: 1px dashed #696969;
+}
+
+.experience-items a:visited {
+  color: #696969;
+}
+
+.connect-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.connect-links li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  background-color: #696969;
+  border-radius: 10px;
+}
+
+.connect-links li:hover {
+  background-color: #f0f0f0;
+}
+
+.connect-links li:hover a {
+  color: #696969;
+}
+
+.connect-links a {
+  color: #f0f0f0;
+  font-weight: bold;
+  text-decoration: none;
+}
