@@ -65,19 +65,6 @@ p {
   margin-bottom: 10px;
 }
 
-.skills-group {
-  display: flex;
-  flex-direction: column;
-}
-
-.skills-group li {
-  padding: 10px;
-}
-
-.skills-group a:visited {
-  color: #696969;
-}
-
 .connect-links {
   display: flex;
   justify-content: space-around;
