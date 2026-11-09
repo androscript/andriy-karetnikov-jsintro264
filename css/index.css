@@ -25,6 +25,10 @@ h1 {
   font-style: italic;
 }
 
+p {
+  margin: 0;
+}
+
 .nav-items {
   display: flex;
   align-items: center;
@@ -50,17 +54,27 @@ h1 {
   color: #696969;
 }
 
-.experience-items {
+.experience-item {
+  margin-bottom: 25px;
+}
+
+.experience-item div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-bottom: 10px;
+}
+
+.skills-group {
   display: flex;
   flex-direction: column;
 }
 
-.experience-items li {
-  padding: 20px;
-  border: 1px dashed #696969;
+.skills-group li {
+  padding: 10px;
 }
 
-.experience-items a:visited {
+.skills-group a:visited {
   color: #696969;
 }
 
