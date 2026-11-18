@@ -82,6 +82,11 @@ p, ul, li {
   margin-bottom: 10px;
 }
 
+#skills ul {
+  display: flex;
+  flex-direction: column;
+}
+
 #skills li {
   margin-bottom: 15px;
 }
