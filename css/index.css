@@ -9,7 +9,20 @@ li {
 }
 
 section {
-  margin : 20px;
+  margin : 20px 20px 40px 20px;
+}
+
+section::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  padding-top: 40px;
+  border-bottom: 1px solid #696969;
+}
+
+section:last-of-type::after {
+  border-bottom: 0;
 }
 
 h1, h2 {
@@ -25,7 +38,7 @@ h1 {
   font-style: italic;
 }
 
-p {
+p, ul, li {
   margin: 0;
 }
 
@@ -58,11 +71,28 @@ p {
   margin-bottom: 25px;
 }
 
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
 .experience-item div {
   display: flex;
   justify-content: space-between;
   max-width: 1200px;
   margin-bottom: 10px;
+}
+
+#skills ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#skills li {
+  margin-bottom: 15px;
+}
+
+#connect {
+  border-bottom: 0;
 }
 
 .connect-links {
@@ -92,4 +122,11 @@ p {
   color: #f0f0f0;
   font-weight: bold;
   text-decoration: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
