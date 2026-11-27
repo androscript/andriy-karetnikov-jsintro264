@@ -124,6 +124,63 @@ p, ul, li {
   text-decoration: none;
 }
 
+label {
+  font-size: 20px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+textarea {
+  width: 500px;
+  height: 100px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 20px;
+  color: #f0f0f0;
+  background-color: #696969;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#messages li {
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+#messages span {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#messages button {
+  padding: 5px 10px;
+  font-size: 18px;
+  color: #f0f0f0;
+  background-color: #696969;
+  border-radius: 10px;
+}
+
+#messages button:hover {
+ cursor: pointer;
+}
+
 footer {
   display: flex;
   align-items: center;
